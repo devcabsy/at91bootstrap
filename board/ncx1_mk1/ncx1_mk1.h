@@ -23,8 +23,8 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-#ifndef __SAM9X60EK_H__
-#define __SAM9X60EK_H__
+#ifndef __NCX1_MK1_H__
+#define __NCX1_MK1_H__
 
 /*
  * PMC Settings
@@ -90,4 +90,4 @@
 #define CONFIG_SYS_ID_SDHC	AT91C_ID_SDMMC1
 #endif
 
-#endif /*#ifndef __SAM9X60EK_H__ */
+#endif /*#ifndef __NCX1_MK1_H__ */

@@ -313,7 +313,7 @@ void at91_qspi_hw_init(void)
 #ifdef CONFIG_OF_LIBFDT
 void at91_board_set_dtb_name(char *of_name)
 {
-	strcpy(of_name, "at91-sam9x60ek.dtb");
+	strcpy(of_name, "at91-ncx1_mk1.dtb");
 }
 #endif
 
