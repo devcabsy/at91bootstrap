@@ -152,8 +152,8 @@ static void ddramc_init(void)
 
 static void at91_green_led_on(void)
 {
-	pio_set_gpio_output(AT91C_PIN_PC(0), 0); // jolp add
-	pio_set_gpio_output(AT91C_PIN_PC(1), 0); // jolp add
+	// pio_set_gpio_output(AT91C_PIN_PC(0), 0); // jolp add
+	// pio_set_gpio_output(AT91C_PIN_PC(1), 0); // jolp add
 	pio_set_gpio_output(AT91C_PIN_PB(14), 0); // jolp add
 	pio_set_gpio_output(AT91C_PIN_PB(13), 0);
 	pio_set_gpio_output(AT91C_PIN_PB(11), 0);
